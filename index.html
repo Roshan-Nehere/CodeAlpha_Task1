@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Image Gallery</h1>
+    <div class="container" id="album-container">
+        <!-- Albums will be dynamically generated -->
+    </div>
+
+    <div class="photos" id="photo-container">
+        <!-- Photos will be dynamically generated -->
+    </div>
+
+    <div class="photo-viewer" id="photo-viewer">
+        <span class="close" id="close-viewer">&times;</span>
+        <span class="nav prev" id="prev-image">&#10094;</span>
+        <img id="viewer-image" src="" alt="">
+        <span class="nav next" id="next-image">&#10095;</span>
+    </div>
+
+    <button class="back-button" id="back-to-albums">See to Albums</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
