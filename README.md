@@ -25,3 +25,7 @@ HTML: Structure of the gallery
 CSS: Styling and layout
 
 JavaScript: Interactive functionalities (image navigation, lightbox, etc.)
+
+## Screenshot
+![Image Gallery Preview](images/screenshot.png)
+
